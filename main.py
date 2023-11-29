@@ -4,7 +4,7 @@ import time
 
 
 app = Flask(__name__)
-ledPin = 6
+ledPin = 2
 
 @app.route('/', methods=['GET', 'POST'])
 def display_message():
