@@ -17,6 +17,7 @@ def hello():
     GPIO.output(ledPin, 1)  # 처음에는 일단 꺼둔 상태
     time.sleep(5)
     GPIO.output(ledPin, 0)  # 처음에는 일단 꺼둔 상태
+    return "test";
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)
